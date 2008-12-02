@@ -1,0 +1,7 @@
+# $Id: INSTALL 57 2008-08-29 07:24:40Z root $
+#===============================================================================
+# INSTALL for <APP>
+#===============================================================================
+1. Run 'make clean' to clean old versions off system and install new versions.
+2. Run 'make install' to install all apps and libraries over old versions.
+3. Run 'make uninstall' to remove all apps and libraries.
