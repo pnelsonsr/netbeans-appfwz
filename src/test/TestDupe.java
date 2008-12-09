@@ -1,4 +1,4 @@
-// $Id: java-head-netbeans 65 2008-10-15 20:56:34Z root $
+// $Id$
 //==============================================================================
 // FileName TestDupe.java
 // CodeJock patrick@nelware.com 

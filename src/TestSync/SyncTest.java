@@ -1,4 +1,4 @@
-// $Id: java-head 62 2008-10-10 04:58:05Z root $
+// $Id$
 //==============================================================================
 // FileName SyncTest.java
 // CodeJock patrick@nelsons.name 
