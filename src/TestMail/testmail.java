@@ -43,7 +43,7 @@ public class testmail {
   //-----------------------------------------------------
   try {
     SimpleEmail email = new SimpleEmail();
-    email.setHostName("smtp.1and1.com");
+    email.setHostName("localhost");
     email.addTo("patrick@nelsons.name", "Patrick Nelson");
     email.setFrom("patrick@nelsons.name", "Me");
     email.setSubject("Test message");
