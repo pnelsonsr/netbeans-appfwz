@@ -63,9 +63,9 @@ class TestAbstract03 {
     // create new public class
     B b = new B();
     // get private methods or get the private class instead
-    AbsClass absClass = new A();
+ //   AbsClass absClass = new A();
     // from here on you import from C1 to B through your methods in A
-    b.setAbsClass(absClass);
+ //   b.setAbsClass(absClass);
   }
 }
 
