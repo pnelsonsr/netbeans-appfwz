@@ -1,4 +1,4 @@
-// $Id: java-head-netbeans 67 2008-11-30 07:57:41Z root $
+// $Id$
 //==============================================================================
 // FileName TestNew.java
 // CodeJock patrick@nelware.com
