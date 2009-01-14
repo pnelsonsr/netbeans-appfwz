@@ -166,67 +166,85 @@ public class testJFrame extends javax.swing.JFrame {
 
     setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+    jMenu1.setMnemonic(java.awt.event.KeyEvent.VK_F);
     jMenu1.setText("File");
     jMenu1.add(jSeparator1);
 
     jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.CTRL_MASK));
+    jMenuItem1.setMnemonic(java.awt.event.KeyEvent.VK_C);
     jMenuItem1.setText("Compare files...");
     jMenu1.add(jMenuItem1);
 
     jMenuItem2.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_O, java.awt.event.InputEvent.SHIFT_MASK | java.awt.event.InputEvent.CTRL_MASK));
+    jMenuItem2.setMnemonic(java.awt.event.KeyEvent.VK_L);
     jMenuItem2.setText("Select files...");
     jMenu1.add(jMenuItem2);
 
+    jMenuItem3.setMnemonic(java.awt.event.KeyEvent.VK_O);
     jMenuItem3.setText("Compare folders...");
     jMenu1.add(jMenuItem3);
     jMenu1.add(jSeparator2);
 
     jMenuItem4.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_P, java.awt.event.InputEvent.CTRL_MASK));
+    jMenuItem4.setMnemonic(java.awt.event.KeyEvent.VK_P);
     jMenuItem4.setText("Print...");
     jMenu1.add(jMenuItem4);
 
+    jMenuItem5.setMnemonic(java.awt.event.KeyEvent.VK_W);
     jMenuItem5.setText("Print preview");
     jMenu1.add(jMenuItem5);
 
+    jMenuItem6.setMnemonic(java.awt.event.KeyEvent.VK_I);
     jMenuItem6.setText("Print options...");
     jMenu1.add(jMenuItem6);
     jMenu1.add(jSeparator3);
 
+    jMenuItem7.setMnemonic(java.awt.event.KeyEvent.VK_R);
     jMenuItem7.setText("Report...");
     jMenu1.add(jMenuItem7);
 
+    jMenuItem8.setMnemonic(java.awt.event.KeyEvent.VK_T);
     jMenuItem8.setText("Statistics");
     jMenu1.add(jMenuItem8);
     jMenu1.add(jSeparator4);
 
+    jMenuItem9.setMnemonic(java.awt.event.KeyEvent.VK_S);
     jMenuItem9.setText("Save source");
     jMenu1.add(jMenuItem9);
 
+    jMenuItem10.setMnemonic(java.awt.event.KeyEvent.VK_D);
     jMenuItem10.setText("Save destination");
     jMenu1.add(jMenuItem10);
 
     jMenuItem11.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_S, java.awt.event.InputEvent.CTRL_MASK));
+    jMenuItem11.setMnemonic(java.awt.event.KeyEvent.VK_A);
     jMenuItem11.setText("Save all");
     jMenu1.add(jMenuItem11);
 
+    jMenuItem12.setMnemonic(java.awt.event.KeyEvent.VK_V);
     jMenuItem12.setText("Save as...");
     jMenu1.add(jMenuItem12);
 
+    jMenuItem13.setMnemonic(java.awt.event.KeyEvent.VK_F);
     jMenuItem13.setText("Replace right file");
     jMenu1.add(jMenuItem13);
 
+    jMenuItem14.setMnemonic(java.awt.event.KeyEvent.VK_U);
     jMenuItem14.setText("Save as result");
     jMenu1.add(jMenuItem14);
     jMenu1.add(jSeparator5);
 
+    jMenu3.setMnemonic(java.awt.event.KeyEvent.VK_N);
     jMenu3.setText("Recent");
     jMenu1.add(jMenu3);
     jMenu1.add(jSeparator6);
 
+    jMenuItem15.setMnemonic(java.awt.event.KeyEvent.VK_E);
     jMenuItem15.setText("Close all");
     jMenu1.add(jMenuItem15);
 
     jMenuItem16.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_ESCAPE, 0));
+    jMenuItem16.setMnemonic(java.awt.event.KeyEvent.VK_X);
     jMenuItem16.setText("Exit");
     jMenu1.add(jMenuItem16);
 

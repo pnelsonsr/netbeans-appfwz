@@ -6,6 +6,9 @@
       <SubComponents>
         <Menu class="javax.swing.JMenu" name="jMenu1">
           <Properties>
+            <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="java.awt.event.KeyEvent.VK_F" type="code"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="File"/>
           </Properties>
           <SubComponents>
@@ -16,6 +19,9 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+O"/>
                 </Property>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_C" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Compare files..."/>
               </Properties>
             </MenuItem>
@@ -24,11 +30,17 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Shift+Ctrl+O"/>
                 </Property>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_L" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Select files..."/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_O" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Compare folders..."/>
               </Properties>
             </MenuItem>
@@ -39,16 +51,25 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+P"/>
                 </Property>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_P" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Print..."/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_W" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Print preview"/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_I" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Print options..."/>
               </Properties>
             </MenuItem>
@@ -56,11 +77,17 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_R" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Report..."/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem8">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_T" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Statistics"/>
               </Properties>
             </MenuItem>
@@ -68,11 +95,17 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem9">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_S" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Save source"/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem10">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_D" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Save destination"/>
               </Properties>
             </MenuItem>
@@ -81,21 +114,33 @@
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="Ctrl+S"/>
                 </Property>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_A" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Save all"/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem12">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_V" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Save as..."/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem13">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_F" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Replace right file"/>
               </Properties>
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem14">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_U" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Save as result"/>
               </Properties>
             </MenuItem>
@@ -103,6 +148,9 @@
             </MenuItem>
             <Menu class="javax.swing.JMenu" name="jMenu3">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_N" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Recent"/>
               </Properties>
             </Menu>
@@ -110,6 +158,9 @@
             </MenuItem>
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem15">
               <Properties>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_E" type="code"/>
+                </Property>
                 <Property name="text" type="java.lang.String" value="Close all"/>
               </Properties>
             </MenuItem>
@@ -117,6 +168,9 @@
               <Properties>
                 <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
                   <KeyStroke key="ESCAPE"/>
+                </Property>
+                <Property name="mnemonic" type="int" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection code="java.awt.event.KeyEvent.VK_X" type="code"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="Exit"/>
               </Properties>
