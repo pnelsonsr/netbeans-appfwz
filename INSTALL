@@ -1,6 +1,9 @@
-# $Id$
 #===============================================================================
-# INSTALL for <APP>
+# Code Jock..: Patrick Nelson
+# Version....: 0.1.1
+# Revision...: 2012-080
+#-------------------------------------------------------------------------------
+# INSTALL for nbp project
 #===============================================================================
 1. Run 'make clean' to clean old versions off system and install new versions.
 2. Run 'make install' to install all apps and libraries over old versions.
